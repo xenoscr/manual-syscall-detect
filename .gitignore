@@ -18,9 +18,11 @@ mono_crash.*
 
 # Build results
 [Dd]ebug/
+[De]ebug-DLL/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+[Rr]elease-DLL/
 x64/
 x86/
 [Aa][Rr][Mm]/
