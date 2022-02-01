@@ -15,7 +15,7 @@ This project can be compiled as an EXE or a DLL depending on your needs. The EXE
 - Release - EXE
 - Release-DLL - DLL
 
-This project makes use of [OutputDebugString](https://docs.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-outputdebugstringw) to provide telemetry. This was done to provide telemetry for applications that could not open a console. To view the telemetry from this tool, you will need to run the application in a debugger, write your own tool to view the debugging messages, or I suggest using [DebugViewe](https://docs.microsoft.com/en-us/sysinternals/downloads/debugview).
+This project makes use of [OutputDebugString](https://docs.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-outputdebugstringw) to provide telemetry. This was done to provide telemetry for applications that could not open a console. To view the telemetry from this tool, you will need to run the application in a debugger, write your own tool to view the debugging messages, or I suggest using [DebugViewer](https://docs.microsoft.com/en-us/sysinternals/downloads/debugview).
 
 ## Demonstration
 ![video](video/manual-syscall-detect-demo.gif)
